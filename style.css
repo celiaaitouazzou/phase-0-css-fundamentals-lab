@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+header a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(255, 216, 203);
+}
+
+figure { 
+  display: block;
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#featured-property p {
+  margin: 0 auto; /* Automatically adjust the left and right margins to center the element */
+  width: 800px;
+}
+
+#details {
+  display: inline-flex;
+  background-color: rgb(255, 216, 203);
+  width :100%;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+}
